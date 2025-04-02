@@ -9,3 +9,9 @@ Rules = [
  "🚫 Does not contain the phrase “qwerty” in any format",
  "🚫 Does not contain the phrase “123”",
 ]
+def show_rules():
+    print("\nPassword Validation Rules:")
+    for rule in Rules:
+        print(rule)
+
+show_rules()
