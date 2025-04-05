@@ -1,12 +1,7 @@
 
-# The Mini project was Devided into two Parts: Maria is working on the passwrord validation logic and I am working on the user interface.
+# The Mini project was divided into two Parts: Maria is working on the password validation logic, and I am working on the user interface.
 # The code below is the user interface for the password validation project.
 # The code is designed to prompt the user for a password and check if it meets certain criteria.
-
-
-
-# Importing the regular expression module to use for pattern matching in password validation.
-import re
 
 
 # Define a list called 'rules' that holds each password requirement, this was provided on the assigment documentation.
@@ -34,39 +29,23 @@ def show_rules():
 #This is what the user will see first before entering the password.
 show_rules()
 
-#Ask the user to enter a password and store it in the cariable called "password"
+#Ask the user to enter a password and store it in the variable called "password"
 password = input("\nPlease enter a password that conforms to the above restrictions:\n\t\t")
 
 #Print the password back to the user so they can see what they entered.
-#This is for testing purposes while the logic is being developed. we will replace it with a validation funtion. 
+#This is for testing purposes while the logic is being developed. We will replace it with a validation function. 
 #validate_passord(password)
 print(f"Your password is: {password}")
 
 
-# This is a placegolder for the password validation function.
-# This function will be replace once the logic function is deloveloped and the validation function is defined.
+# This is a placeholder for the password validation function.
+# This function will be replaced once the logic function is developed and the validation function is defined.
 # For testing purposes, the function will pretend the password is always valid
 
 def validate_password(password):
     return []
-
-
-
-
-# Validation rule for password length
-def validate_password_length(password):
-    if len(password) < 8 or len(password) > 16:
-        return 'Password needs 8-16 characters'
-    return 'Valid'
-
-#Validation rule for special characters
-def validate_special_characters(password):
-    if not re.search(r'[%$#^&*!@()]', password):
-        return "Password should contain one of the special characters: %$#^&*!@()"
-    return 'Valid'
-
-
-#Use this validation fuction to check if the password meets the requirements.
+    
+#Use this validation function to check if the password meets the requirements.
 violations = validate_password(password)
 
 #Password Validation Logic will be  added here
@@ -79,4 +58,3 @@ if violations:
         print(f'-{rule}')
 else:
     print("\n🎉Success! Your Password meets all the requirements.")
-
