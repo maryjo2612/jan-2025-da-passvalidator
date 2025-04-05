@@ -3,8 +3,7 @@
 # The code below is the user interface for the password validation project.
 # The code is designed to prompt the user for a password and check if it meets certain criteria.
 
-
-# Defined a list called 'rules' that holds each password requirement, this was provided on the assigment documentation.
+# Define a list called 'rules' that holds each password requirement, this was provided on the assigment documentation.
 # Each rule is represented as a string and we used emojis to make it fun and easy to understand.
 rules = [
     "✨ Contains 8–16 characters",
@@ -48,36 +47,8 @@ def validate_password(password):
 #Use this validation fuction to check if the password meets the requirements.
 violations = validate_password(password)
 
-    #Password Validation Logic will be  added here
-    #Each comment will be use as a placeholder for the logic that will be added later.
-
-
-    #Check if the password is between 8 and 16 characters long
-
-
-    #Check if the password contains at least one special character from the set %$#^&*!@()
-
-
-    #Check if the password contains at least one number 0-9
-
-
-    #Check if the password contains at least one capital letter
-
-
-    #Check if the password starts with a lowercase letter
-
-
-    #Check if the password does not contain the phrase "pass"
-
-
-    #Check if the password does not contain the phrase "qwerty"
-
-
-    #Check if the password does not contain the phrase "123"
-
-
-    #Maria will write the logic to check these and return a list of broken rules..
-   
+#Password Validation Logic will be  added here
+    
 #This is to show feedback to the user if the password is valid or not
 
 if violations:
@@ -86,3 +57,4 @@ if violations:
         print(f'-{rule}')
 else:
     print("\n🎉Success! Your Password meets all the requirements.")
+
