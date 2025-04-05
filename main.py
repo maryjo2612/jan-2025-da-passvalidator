@@ -3,6 +3,12 @@
 # The code below is the user interface for the password validation project.
 # The code is designed to prompt the user for a password and check if it meets certain criteria.
 
+
+
+# Importing the regular expression module to use for pattern matching in password validation.
+import re
+
+
 # Define a list called 'rules' that holds each password requirement, this was provided on the assigment documentation.
 # Each rule is represented as a string and we used emojis to make it fun and easy to understand.
 rules = [
@@ -43,6 +49,22 @@ print(f"Your password is: {password}")
 
 def validate_password(password):
     return []
+
+
+
+
+# Validation rule for password length
+def validate_password_length(password):
+    if len(password) < 8 or len(password) > 16:
+        return 'Password needs 8-16 characters'
+    return 'Valid'
+
+#Validation rule for special characters
+def validate_special_characters(password):
+    if not re.search(r'[%$#^&*!@()]', password):
+        return "Password should contain one of the special characters: %$#^&*!@()"
+    return 'Valid'
+
 
 #Use this validation fuction to check if the password meets the requirements.
 violations = validate_password(password)
