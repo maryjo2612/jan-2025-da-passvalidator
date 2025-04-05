@@ -65,6 +65,42 @@ def validate_special_characters(password):
         return "Password should contain one of the special characters: %$#^&*!@()"
     return 'Valid'
 
+#Validation rule for numbers
+def validate_numbers(password):
+    if not re.search(r'[0-9]', password):
+        return 'Password should contain at least one number 0-9'
+    return 'Valid'
+
+#Validation rule for capital letters
+def validate_capital_letters(password):
+    if not re.search(r'[A-Z]', password):
+        return 'Password should contain at least one capital letter'
+    return 'Valid'
+
+#Validation rule for lowercase letters
+def validate_start_lowercase(password):
+    if not password[0].islower():
+        return 'Psssword should start with a lowercase letter'
+    return 'Valid'
+
+#Validation rule for the phrase "pass"
+def validate_no_pass(password):
+    if "pass" in password.lower():
+        return 'Password should not contain the phrase "pass" in any format'
+    return 'Valid'
+
+#Validation rule for the phrase "qwerty"
+def validate_no_qwerty(password):
+    if "qwerty" in password.lower():
+        return 'Password should not contain the phrase "qwerty" in any format'
+    return 'Valid'
+
+#Validation rule for the phrase "123"
+def validate_no_numbers(password):
+    if "123" in password:
+        return 'Password should not contain the phrase "123"'
+    return 'Valid'
+
 
 #Use this validation fuction to check if the password meets the requirements.
 violations = validate_password(password)
