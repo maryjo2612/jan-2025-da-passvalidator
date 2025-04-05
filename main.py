@@ -115,16 +115,18 @@ def validate_no_numbers(password):
     return 'Valid'
 
 #This is to show feedback to the user if the password is valid or not
-while True:
-        password = input("\nPlease enter a password that conforms to the above restrictions:\n\t\t")
-        print(f"Your password is: {password}")
 
-        violations = validate_password(password)
-        
-        if violations:
-            print("\nThis password does not meet the following requirements:")
-            for rule in violations:
-                print(f'-{rule}')
-        else:
-            print("\n🎉Success! Your Password meets all the requirements.")
-            break
+def validatepassword():
+    while True:
+            password = input("\nPlease enter a password that conforms to the above restrictions:\n\t\t")
+            print(f"Your password is: {password}")
+
+            violations = validate_password(password)
+            
+            if violations:
+                print("\nThis password does not meet the following requirements:")
+                for rule in violations:
+                    print(f'-{rule}')
+            else:
+                print("\n🎉Success! Your Password meets all the requirements.")
+                break
