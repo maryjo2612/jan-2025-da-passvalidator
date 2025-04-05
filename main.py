@@ -1,8 +1,8 @@
 
 
-# The Mini project was Devided into two Parts: Maria is working on the passwrord validation logic and I am working on the user interface.
-# The code below is the user interface for the password validation project.
-# The code is designed to prompt the user for a password and check if it meets certain criteria.
+# The mini project was divided into two parts: Maria is working on the password validation logic, and I am working on the user interface.
+# The code below represents the user interface for the password validation project.
+# The code is designed to prompt the user to enter a password and checks if it meets the required criteria.
 
 # Define a list called 'rules' that holds each password requirement, this was provided on the assigment documentation.
 # Each rule is represented as a string and we used emojis to make it fun and easy to understand.
