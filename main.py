@@ -34,11 +34,11 @@ password = input("\nPlease enter a password that conforms to the above restricti
 
 #Print the password back to the user so they can see what they entered.
 #This is for testing purposes while the logic is being developed. we will replace it with a validation funtion. 
-#validate_passord(password)
+#validate_password(password)
 print(f"Your password is: {password}")
 
 
-# This is a placegolder for the password validation function.
+# This is a placeholder for the password validation function.
 # This function will be replace once the logic function is deloveloped and the validation function is defined.
 # For testing purposes, the function will pretend the password is always valid
 
@@ -48,36 +48,8 @@ def validate_password(password):
 #Use this validation fuction to check if the password meets the requirements.
 violations = validate_password(password)
 
-    #Password Validation Logic will be  added here
-    #Each comment will be use as a placeholder for the logic that will be added later.
+#Password Validation Logic will be  added 
 
-
-    #Check if the password is between 8 and 16 characters long
-
-
-    #Check if the password contains at least one special character from the set %$#^&*!@()
-
-
-    #Check if the password contains at least one number 0-9
-
-
-    #Check if the password contains at least one capital letter
-
-
-    #Check if the password starts with a lowercase letter
-
-
-    #Check if the password does not contain the phrase "pass"
-
-
-    #Check if the password does not contain the phrase "qwerty"
-
-
-    #Check if the password does not contain the phrase "123"
-
-
-    #Maria will write the logic to check these and return a list of broken rules..
-   
 #This is to show feedback to the user if the password is valid or not
 
 if violations:
