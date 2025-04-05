@@ -1,4 +1,5 @@
 
+
 # The Mini project was Devided into two Parts: Maria is working on the passwrord validation logic and I am working on the user interface.
 # The code below is the user interface for the password validation project.
 # The code is designed to prompt the user for a password and check if it meets certain criteria.
@@ -57,4 +58,3 @@ if violations:
         print(f'-{rule}')
 else:
     print("\n🎉Success! Your Password meets all the requirements.")
-
