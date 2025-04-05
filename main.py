@@ -3,6 +3,7 @@
 # The code below is the user interface for the password validation project.
 # The code is designed to prompt the user for a password and check if it meets certain criteria.
 
+
 # Define a list called 'rules' that holds each password requirement, this was provided on the assigment documentation.
 # Each rule is represented as a string and we used emojis to make it fun and easy to understand.
 rules = [
