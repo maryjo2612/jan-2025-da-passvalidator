@@ -1,29 +1,29 @@
 **Password Validator Project**
 
 **Team:**
-👩‍💻 Maria Jose Calles — Validation Logic
-👨‍💻 Franklin Sotolongo — User Interface & Testing
+- 👩‍💻 Maria Jose Calles — Validation Logic
+- 👨‍💻 Franklin Sotolongo — User Interface & Testing
 
 🧠 **Project Description**
 This is a beginner-friendly password validation tool written in Python. It asks the user to input a password and checks if it meets security rules.
 
 📋 **Validation Rules**
 Your password must:
-✨ Be between 8–16 characters
-🔒 Include at least one special character: %$#^&*!@()
-🔢 Include at least one number
-🔠 Include at least one capital letter
-🔤 Start with a lowercase letter
-🚫 Not contain the phrase "pass"
-🚫 Not contain the phrase "qwerty"
-🚫 Not contain the sequence "123"
+- ✨ Be between 8–16 characters
+- 🔒 Include at least one special character: %$#^&*!@()
+- 🔢 Include at least one number
+- 🔠 Include at least one capital letter
+- 🔤 Start with a lowercase letter
+- 🚫 Not contain the phrase "pass"
+- 🚫 Not contain the phrase "qwerty"
+- 🚫 Not contain the sequence "123"
 
 
 📚 **Learnings:**
- ✅ Python Conditionals & Loops: Using if, else, and loops to implement logic.
- ✅ Regular Expressions (Regex): Using regex to validate passwords against patterns.
- ✅ Git & Version Control: Using branches, making commits, and handling merge conflicts.
- ✅ Collaboration: How to efficiently split tasks, handle pull requests, and merge code.
+ - ✅ Python Conditionals & Loops: Using if, else, and loops to implement logic.
+ - ✅ Regular Expressions (Regex): Using regex to validate passwords against patterns.
+ - ✅ Git & Version Control: Using branches, making commits, and handling merge conflicts.
+ - ✅ Collaboration: How to efficiently split tasks, handle pull requests, and merge code.
 
 Challenges & Solutions
 
