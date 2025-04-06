@@ -39,7 +39,7 @@ Your password must:
 - **Test File Creation & Integration**: After creating a test file to test password functionality, integrating it with the main code posed challenges, as it wasn’t directly linked to the main logic. Ensuring the tests ran adequately without interfering with the main code was a learning curve.
 - **Using .gitignore**: Learning the need for a .gitignore file to avoid committing unnecessary files like __pycache__, which are excessive in the repository.
 
-###💡 **Solutions**:
+### 💡 **Solutions**:
 - **Branching & Git Workflow**: We created separate branches for different features, allowing both members to work simultaneously without affecting the main code. After finalizing the changes, we merged them back into the main branch.
 - **Test File Integration**: We wrote unit tests for the password validation logic, ensuring that the test cases did not disrupt the main program’s functionality.
 - **Utilizing .gitignore**: We created a .gitignore file to ensure that unnecessary files (such as Python bytecode) are not committed to the repository, keeping the project clean.
