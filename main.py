@@ -121,3 +121,6 @@ def validatepassword():
                 break
 validatepassword()
 
+if __name__ == "__main__":
+    show_rules()
+    validatepassword()
