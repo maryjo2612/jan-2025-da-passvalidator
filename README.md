@@ -28,7 +28,7 @@ Your password must:
 Challenges & Solutions
 
 🛠️ **Challenges:**
-- **Branching Issues**: One team member working directly on the main branch and the other on a separate branch created some merge conflicts, leading to the need to pull the latest code repeatedly.
+- **Branching Issues**: One team member working directly on the main branch and the other on a separate branch created some merge conflicts, leading to repeatedly pulling the latest code.
 - **Test File Creation & Integration**: After creating a test file to test password functionality, integrating it with the main code posed challenges, as it wasn’t directly linked to the main logic. Ensuring the tests ran adequately without interfering with the main code was a learning curve.
 - **Using .gitignore**: Learning the need for a .gitignore file to avoid committing unnecessary files like __pycache__, which are excessive in the repository.
 
@@ -38,5 +38,5 @@ Challenges & Solutions
 - **Utilizing .gitignore**: We created a .gitignore file to ensure that unnecessary files (such as Python bytecode) are not committed to the repository, keeping the project clean.
 
 💻 **How to Run**
-Option 1 – Interactive Mode --- python3 main.py
-Option 2 – Run the Test File -- python3 test_passwords.py
+- Option 1 – Interactive Mode --- python3 main.py
+- Option 2 – Run the Test File -- python3 test_passwords.py
