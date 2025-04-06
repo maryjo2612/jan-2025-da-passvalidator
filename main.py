@@ -119,7 +119,7 @@ def validatepassword():
             else:
                 print("\n🎉Success! Your Password meets all the requirements.")
                 break
-validatepassword()
+
 
 if __name__ == "__main__":
     show_rules()
